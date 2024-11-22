@@ -1,0 +1,78 @@
+/* src/components/UserManagement.css */
+
+.container {
+  padding: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.table {
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #dee2e6;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-button {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.delete-button {
+  color: #dc3545;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .modal-container {
+    width: 400px;
+  }
+}
+
+/* For grid layouts */
+
+.user-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .user-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .user-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
