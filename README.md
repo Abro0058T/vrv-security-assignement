@@ -3,6 +3,8 @@ For this project I have used localStorage to storedata instead of a database . T
 
 Thank you . Build by Abhishek Naula  
 
+Currently there are no default role and user . So the roles and user table will be empty
+
 ## Role-Based Access Control (RBAC) User Interface
 This project is a React.js application that provides an interface for managing users and roles with Role-Based Access Control (RBAC). It allows administrators to perform CRUD (Create, Read, Update, Delete) operations on users and roles, assign roles to users, and manage permissions. The application uses localStorage to persist data between sessions.
 
